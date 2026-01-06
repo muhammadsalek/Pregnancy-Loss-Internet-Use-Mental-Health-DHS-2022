@@ -1,0 +1,14 @@
+Add R scripts for BDHS 2022 study on pregnancy loss, internet use, and mental health
+This commit includes all R scripts used for the published article:
+
+Ullah MO, Miah MS, et al. (2025). Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh. BMC Women's Health. DOI: https://doi.org/10.1186/s12905-025-04166-4
+
+Scripts included:
+- 01_data_preparation.R : Data cleaning and preprocessing
+- 02_variable_construction.R : Construct variables for PHQ-9, GAD-7, and pregnancy loss
+- 03_descriptive_analysis.R : Descriptive statistics and tables
+- 04_regression_analysis.R : Survey-weighted multinomial logistic regression
+- 05_spatial_analysis.R : Division-level spatial analysis and maps
+- 06_tables_figures.R : Generate figures and tables for the paper
+
+Note: Raw BDHS 2022 data is not included due to data use agreements. Researchers can request data from https://dhsprogram.com
