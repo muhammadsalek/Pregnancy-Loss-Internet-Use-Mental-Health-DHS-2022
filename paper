@@ -1,14 +1,39 @@
-Add R scripts for BDHS 2022 study on pregnancy loss, internet use, and mental health
-This commit includes all R scripts used for the published article:
+Title:
+Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh: evidence from the 2022 BDHS
+Authors:
+Md Salek Miah¹, Mohammad Ohid Ullah²
 
-Ullah MO, Miah MS, et al. (2025). Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh. BMC Women's Health. DOI: https://doi.org/10.1186/s12905-025-04166-4
+Affiliations:
+1 Department of Statistics, Shahjalal University of Science and Technology, Sylhet, 3114, Bangladesh
+2 Department of Statistics, Shahjalal University of Science and Technology, Sylhet, 3114, Bangladesh
 
-Scripts included:
-- 01_data_preparation.R : Data cleaning and preprocessing
-- 02_variable_construction.R : Construct variables for PHQ-9, GAD-7, and pregnancy loss
-- 03_descriptive_analysis.R : Descriptive statistics and tables
-- 04_regression_analysis.R : Survey-weighted multinomial logistic regression
-- 05_spatial_analysis.R : Division-level spatial analysis and maps
-- 06_tables_figures.R : Generate figures and tables for the paper
+DOI / PMID:
 
-Note: Raw BDHS 2022 data is not included due to data use agreements. Researchers can request data from https://dhsprogram.com
+DOI: 10.1186/s12905-025-04166-4
+
+PMID: 41318470
+
+Access: Free article
+Citation (for GitHub / README / papers)
+
+APA 7th style:
+Ullah, M. O., & Miah, M. S. (2025). Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh: evidence from the 2022 BDHS. BMC Women's Health. https://doi.org/10.1186/s12905-025-04166-4
+
+Harvard:
+Ullah, M.O. & Miah, M.S., 2025. Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh: evidence from the 2022 BDHS. BMC Women’s Health. https://doi.org/10.1186/s12905-025-04166-4
+
+Vancouver:
+Ullah MO, Miah MS. Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh: evidence from the 2022 BDHS. BMC Women's Health. 2025. doi:10.1186/s12905-025-04166-4
+Vancouver:
+Ullah MO, Miah MS. Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh: evidence from the 2022 BDHS. BMC Women's Health. 2025. doi:10.1186/s12905-025-04166-4
+
+BibTeX:
+
+@article{Ullah2025PregnancyLoss,
+  title   = {Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh: evidence from the 2022 BDHS},
+  author  = {Ullah, Mohammad Ohid and Miah, Md Salek},
+  journal = {BMC Women's Health},
+  year    = {2025},
+  doi     = {10.1186/s12905-025-04166-4},
+  pmid    = {41318470}
+}
